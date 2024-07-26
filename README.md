@@ -1,7 +1,7 @@
 # Arduino-NFC-Servo
 This project uses an Arduino to interface with an NFC reader and a servo motor. The setup allows for controlling the servo based on NFC card authentication and a physical button press.
 
-Description
+Description: 
 This Arduino project integrates an NFC reader, a servo motor, and LEDs to create a simple access control system. The system operates as follows:
 
 When a specific NFC card is detected, the servo motor turns to 90 degrees, a green LED turns on, and a red LED turns off.

@@ -6,7 +6,7 @@ This Arduino project integrates an NFC reader, a servo motor, and LEDs to create
 
 When a specific NFC card is detected, the servo motor turns to 90 degrees, a green LED turns on, and a red LED turns off.
 If a physical button is pressed, the servo motor turns to -90 degrees (or 270 degrees if the servo does not support negative values), the red LED turns on, and the green LED turns off.
-Components Used
+Components Used:
 Arduino Board (e.g., Arduino Uno)
 MFRC522 NFC Reader Module
 Servo Motor
@@ -16,11 +16,11 @@ Push Button
 Resistors (220Ω for LEDs, 10kΩ for button pull-up)
 Breadboard and Jumper Wires
 
-Libraries Used
+Libraries Used:
 MFRC522: For interfacing with the NFC reader. MFRC522 GitHub
 Servo: For controlling the servo motor. Servo GitHub
 
-Components and Pin Connections
+Components and Pin Connections:
 1. Arduino Board (e.g., Arduino Uno)
 2. MFRC522 NFC Reader Module
 SDA (SS) → Pin 10 on Arduino
@@ -45,7 +45,10 @@ Cathode (Short leg) → GND on Arduino
 One leg → Pin 5 on Arduino
 Other leg → GND on Arduino (with a pull-up resistor)
 
-How to Use
+Code:
+The Arduino code is located in the Arduino-NFC-Servo.ino file.
+
+How to Use:
 Hardware Setup: Connect the components as per the circuit diagram.
 Upload Code: Upload the provided Arduino code to your Arduino board using the Arduino IDE.
 Power On: Power on your Arduino setup.
